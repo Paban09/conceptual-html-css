@@ -1,4 +1,43 @@
-h1{
-    color: red;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
+.hero{
+    height: 80vh;
+    background-image: url('../images/image1.jpg');
+    background-position:top center;
+    background-size:cover;
+}
+
+.hero h1{
+    text-align: center;
+    /* background-color: rgba(177, 20, 20, 0.1); */
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* word-spacing: 50px; */
+    /* letter-spacing: 10px; */
+    /* background-color: black; */
+}
+
+.article{
+
+    width: 90%;
+    margin: 40px auto;
+    background-color: antiquewhite;
+    padding: 10px 10px;
+    border: 1px solid gray;
+    
+}
+
+.article p{
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    /* background-color: red; */
+}
