@@ -26,7 +26,7 @@
     /* background-color: black; */
 }
 
-.article{
+.article , .gallery{
 
     width: 90%;
     margin: 40px auto;
@@ -36,8 +36,22 @@
     
 }
 
-.article p{
+.article h1, .gallery h1{
+    text-align: center;
+}
+
+.article p, .gallery p{
     margin-top: 10px;
     font-family: 'Lato', sans-serif;
     /* background-color: red; */
+}
+
+.article p .imp{
+    font-size: 20px;
+}
+
+.gallery p img{
+    height: 100vh;
+    width: 100%;
+    
 }
